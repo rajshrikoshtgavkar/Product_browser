@@ -11,7 +11,7 @@ function App() {
     try {
       setLoading(true);
 
-      let url = "https://product-browser-rumi.onrender.com/products";
+      let url = "https://product-browser-rumi.onrender.com/products?limit=20";
 
       if (category) {
         url += `&category=${category}`;
